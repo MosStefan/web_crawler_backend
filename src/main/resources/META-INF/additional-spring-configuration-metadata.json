@@ -40,23 +40,8 @@
     "description": "A description for 'crawler.spring'"
   },
   {
-    "name": "reactor.netty.ioWorkerCount",
+    "name": "crawler.timeoutPerRequest",
     "type": "java.lang.String",
-    "description": "A description for 'reactor.netty.ioWorkerCount'"
-  },
-  {
-    "name": "reactor.netty.ioWorkerCount",
-    "type": "java.lang.String",
-    "description": "A description for 'reactor.netty.ioWorkerCount'"
-  },
-  {
-    "name": "reactor.netty.ioWorkerCount",
-    "type": "java.lang.String",
-    "description": "A description for 'reactor.netty.ioWorkerCount'"
-  },
-  {
-    "name": "reactor.netty.ioWorkerCount",
-    "type": "java.lang.String",
-    "description": "A description for 'reactor.netty.ioWorkerCount'"
+    "description": "A description for 'crawler.timeoutPerRequest'"
   }
 ]}

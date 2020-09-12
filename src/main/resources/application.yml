@@ -1,7 +1,8 @@
 crawler:
   seed: https://www.donesi.com/dostava
   depth: 3
-  milisecSheduleTaskDelay: 3600000 
+  milisecSheduleTaskDelay: 3600000
+  timeoutPerRequest: 100 
   
   #selector categories
   categoryList1: div.row ul.list-unstyled.w-100 li a

@@ -59,6 +59,9 @@ public class CrawlExecutor {
 
 	@Value("${crawler.selectorMinOrderValue}")
 	private String selectorMinOrderValue;
+	
+	@Value("${crawler.timeoutPerRequest}")
+	private int timeoutPerRequest;
 
 	public boolean statusCrawl = false;
 	
@@ -95,9 +98,9 @@ public class CrawlExecutor {
 								.map(result -> new ScraperResult(idSupplier.get(), result.getUrl(), result.getTitle(),
 										result.getRating(), result.getCountReviews(), result.getTypeOfFoods(),
 										result.getMinOrderValue()))
-								.filter(res -> !res.getNameResult().isEmpty() && !res.getUrl().isEmpty() && !res.getRating().isEmpty()).take(500))
-				.delayElements(Duration.ofMillis(100))
-				.subscribe(scrapers -> log.info("Result stored - ({})", Duration.ofNanos(System.nanoTime() - start)));
+								.filter(res -> !res.getNameResult().isEmpty() && !res.getUrl().isEmpty() && !res.getRating().isEmpty()))
+				.delayElements(Duration.ofMillis(timeoutPerRequest))
+				.subscribe(scrapers -> log.info("Time per request - ({})", Duration.ofNanos(System.nanoTime() - start)));
 		statusCrawl = true;
 		setCrawlStatus(statusCrawl);
 	}
