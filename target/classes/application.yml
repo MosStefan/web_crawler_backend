@@ -1,0 +1,18 @@
+crawler:
+  seed: https://www.donesi.com/dostava
+  depth: 3
+  milisecSheduleTaskDelay: 3600000 
+  
+  #selector categories
+  categoryList1: div.row ul.list-unstyled.w-100 li a
+  categoryList2: div.shops-listings-shops-list-item h3.shops-listing-shop-info-name a
+  
+  #selector scrape result
+  selectorName: h1.mb-3
+  selectorRating: div.position-relative span.shop-profile-header-shop-info-ratings span.shop-ratings span.mr-2
+  selectorCountOfReview: div.position-relative span.shop-profile-header-shop-info-ratings span.shop-ratings span.small:nth-of-type(2)
+  selectorTypeOfFood: div.position-relative  div.justify-content-lg-start span.text-muted a
+  selectorMinOrderValue: div.position-relative  div.justify-content-lg-start span.text-muted:has(i.fa-shopping-basket)
+  
+
+

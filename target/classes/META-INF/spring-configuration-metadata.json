@@ -1,0 +1,73 @@
+{
+  "groups": [
+    {
+      "name": "crawler",
+      "type": "com.mastercrawler.configuration.CrawlerParameters",
+      "sourceType": "com.mastercrawler.MastercrawlerApplication",
+      "sourceMethod": "public com.mastercrawler.configuration.CrawlerParameters crawlerParameters() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "crawler.categoryList1",
+      "type": "java.lang.String",
+      "description": "A description for 'crawler.categoryList1'"
+    },
+    {
+      "name": "crawler.categoryList2",
+      "type": "java.lang.String",
+      "description": "A description for 'crawler.categoryList2'"
+    },
+    {
+      "name": "crawler.depth",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mastercrawler.configuration.CrawlerParameters"
+    },
+    {
+      "name": "crawler.milisec-shedule-task-delay",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mastercrawler.configuration.CrawlerParameters"
+    },
+    {
+      "name": "crawler.seed",
+      "type": "java.lang.String",
+      "sourceType": "com.mastercrawler.configuration.CrawlerParameters"
+    },
+    {
+      "name": "crawler.selectorCountOfReview",
+      "type": "java.lang.String",
+      "description": "A description for 'crawler.selectorCountOfReview'"
+    },
+    {
+      "name": "crawler.selectorMinOrderValue",
+      "type": "java.lang.String",
+      "description": "A description for 'crawler.selectorMinOrderValue'"
+    },
+    {
+      "name": "crawler.selectorName",
+      "type": "java.lang.String",
+      "description": "A description for 'crawler.selectorName'"
+    },
+    {
+      "name": "crawler.selectorRating",
+      "type": "java.lang.String",
+      "description": "A description for 'crawler.selectorRating'"
+    },
+    {
+      "name": "crawler.selectorTypeOfFood",
+      "type": "java.lang.String",
+      "description": "A description for 'crawler.selectorTypeOfFood'"
+    },
+    {
+      "name": "crawler.spring",
+      "type": "java.lang.String",
+      "description": "A description for 'crawler.spring'"
+    },
+    {
+      "name": "reactor.netty.ioWorkerCount",
+      "type": "java.lang.String",
+      "description": "A description for 'reactor.netty.ioWorkerCount'"
+    }
+  ],
+  "hints": []
+}

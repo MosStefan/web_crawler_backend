@@ -1,0 +1,9 @@
+D:\Master rad\mastercrawler\src\main\java\com\mastercrawler\domain\ScraperResult.java
+D:\Master rad\mastercrawler\src\main\java\com\mastercrawler\configuration\CrawlerOptions.java
+D:\Master rad\mastercrawler\src\main\java\com\mastercrawler\configuration\CrawlExecutor.java
+D:\Master rad\mastercrawler\src\main\java\com\mastercrawler\configuration\CrawlerCommand.java
+D:\Master rad\mastercrawler\src\main\java\com\mastercrawler\MastercrawlerApplication.java
+D:\Master rad\mastercrawler\src\main\java\com\mastercrawler\configuration\WebConfiguration.java
+D:\Master rad\mastercrawler\src\main\java\com\mastercrawler\controller\ScraperReactiveController.java
+D:\Master rad\mastercrawler\src\main\java\com\mastercrawler\configuration\CrawlerResult.java
+D:\Master rad\mastercrawler\src\main\java\com\mastercrawler\repository\ScrapeMongoReactiveRepository.java

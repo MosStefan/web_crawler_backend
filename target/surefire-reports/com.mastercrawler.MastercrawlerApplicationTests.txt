@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.mastercrawler.MastercrawlerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.209 s - in com.mastercrawler.MastercrawlerApplicationTests
