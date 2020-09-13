@@ -7,6 +7,7 @@
 You will need Java 8 or above installed.
 
 ## Architecture web crawler
+![diagram](https://user-images.githubusercontent.com/39962176/93025652-ef641280-f5ff-11ea-851c-bc8405b3ff8a.png)
 
 ## Implementation
 **Web crawler** uses Depth-First-Search (**DFS**) for search data. The search starts from the **seed URL** and continue the hyperlinks until the pre-defined depth limit is reached, or there are no more hyperlinks.
